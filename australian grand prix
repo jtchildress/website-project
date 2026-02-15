@@ -1,16 +1,22 @@
 <!doctype html>
-<html lang = eng>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<header>
-<h1>Australian Grand Prix</h1>
-<img>
-<img scr= "https://mclaren.bloomreach.io/delivery/resources/content/gallery/mclaren-racing/formula-1/2025/2025-schedule/australian-gp/saturday/report/2205180984.jpg" alt= "australian gp">
-
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Grand Prix 2025</title>
+    <style>
+        .skip-link { position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+        .skip-link:focus { left: 0; width: auto; height: auto; padding: 8px; background: #000; color: #fff; z-index: 1000; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
 <body>
-<p> the australian grand prix was the first race of the season. this was the real big show of the testing and the engineering of the cars. it was the first example of who would be leading the season and who would be the runner ups becasue unlike other season most of the cars would not be upgraded ater the imalia grand prix</p>
-<h2> Race Times</h2>
-<p>
+    <main id="main-content" role="main">
+        <h1>Australian Grand Prix</h1>
+        <img src="https://mclaren.bloomreach.io/delivery/resources/content/gallery/mclaren-racing/formula-1/2025/2025-schedule/australian-gp/saturday/report/2205180984.jpg" alt="Australian GP">
+        <p>The Australian Grand Prix was the first race of the season. This was the real big show of the testing and the engineering of the cars. It was the first example of who would be leading the season and who would be the runner-ups because unlike other seasons most of the cars would not be upgraded after the Imalia Grand Prix.</p>
+        <h2>Race Times</h2>
+        <p>
 1	Lando Norris	1:42:06.304<br>	
 2	Max Verstappen	+0.895<br>		
 3	George Russell	+8.481<br>		
@@ -31,5 +37,7 @@ Ret	Fernando Alonso	Accident<br>
 Ret	Carlos Sainz Jr.	Accident<br>		
 Ret	Jack Doohan	Accident<br>		
 DNS1	Isack Hadjar	Accident<br>
-</p>	
+        </p>
+    </main>
 </body>
+</html>
